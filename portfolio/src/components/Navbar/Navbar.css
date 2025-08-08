@@ -1,0 +1,223 @@
+:root {
+  --orange: #ffa600;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  z-index: 999;
+  padding: 0 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo area */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  gap: 5px;
+  padding: 10px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Right nav */
+.nav-right {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+  margin-left: 360px;
+}
+
+.nav-links {
+  margin-right: 2rem;
+}
+
+.nav-links > ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links > ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navlink {
+  font-size: 0.9rem;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.navlink.active {
+  color: var(--orange);
+  font-weight: bold;
+  border-bottom: 2px solid var(--orange);
+}
+
+.nav-links > ul > li:hover .navlink {
+  color: var(--orange);
+}
+
+/* Contact button */
+.navBtn {
+  background: linear-gradient(180deg, #00FFFF 26.71%, #000080 99.36%);
+  box-shadow: 1px 10px 15px rgba(0, 255, 255, 0.4);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navBtn:hover {
+  background: white;
+  color: var(--orange);
+  cursor: pointer;
+}
+
+/* Upwork Icon */
+.Upwork {
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  z-index: 999;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+/* ======================== RESPONSIVE BREAKPOINTS ======================== */
+
+@media screen and (max-width: 935px) {
+  .nav-links > ul {
+    gap: 1.5rem;
+  }
+
+  .navlink {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-name {
+    font-size: 1.1rem;
+  }
+
+  .navBtn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-name {
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease-in-out;
+    border-radius: 0 0 20px 20px;
+    margin-left: 0;
+  }
+
+  .nav-right.open {
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+    padding: 1rem 0;
+  }
+
+  .nav-links {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-links > ul > li {
+    text-align: center;
+  }
+
+  .navBtn {
+    margin-top: 1rem;
+  }
+}
+
+/* Specific for 375px and below */
+@media screen and (max-width: 400px) {
+  .nav-name {
+    margin: 0 auto;
+    font-size: 1rem;
+    margin-left: 1.3rem;
+  }
+
+  .navBtn {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+
+  .Upwork {
+    width: 55px;
+    height: 55px;
+    right: 20px;
+  }
+}

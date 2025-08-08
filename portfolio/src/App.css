@@ -1,0 +1,42 @@
+:root {
+  --orange: #ff6600; /* Bright Orange */
+  --black: #000000; /* Pure black background */
+  --gray: #aaaaaa;
+  --text-color: #ffffff;
+  --blueCard: #1a1a1a;
+  --purple: rgb(90, 60, 120);
+  --boxShadow: 0px 19px 60px rgba(255, 102, 0, 0.2);
+  --orangeCard: rgba(255, 102, 0, 0.2);
+  --main-circle: -79px 51px 60px rgba(255, 102, 0, 0.08);
+}
+
+body {
+  background-color: var(--black);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  background-color: var(--black);
+  color: var(--text-color);
+}
+.btn {
+  background: linear-gradient(180deg, var(--orange) 26.71%, #ff3300 99.36%);
+  box-shadow: 1px 10px 15px var(--orangeCard);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+}

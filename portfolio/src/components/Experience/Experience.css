@@ -1,0 +1,160 @@
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 1rem;
+  height: 40vh;
+  background: linear-gradient(
+    90deg,
+    rgb(235, 243, 249) 0%,
+    rgb(214, 232, 243) 35%,
+    rgb(210, 230, 247) 71%,
+    rgb(228, 241, 248) 100%
+  );
+}
+
+.exp-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 5rem;
+  height: 5rem;
+  background: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.exp-box span {
+  font-size: 1rem;
+}
+
+/* ========================= Responsive Breakpoints ========================= */
+
+@media screen and (max-width: 900px) {
+  .experience {
+    gap: 4rem;
+  }
+
+  .circle {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .experience {
+    gap: 2.5rem;
+  }
+
+  .circle {
+    margin-bottom: 1rem;
+  }
+
+  .exp-box span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .experience {
+    flex-direction: column; /* 👈 stack items vertically */
+    align-items: center;
+    gap: 1.5rem;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .exp-box {
+    margin-top: 0; /* Remove extra margin if added earlier */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    gap: 1rem;
+    flex-wrap: nowrap; /* not needed when column layout */
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .experience {
+    gap: 0.7rem;
+  }
+
+  .circle {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .exp-box span {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .experience {
+    gap: 0.5rem;
+  }
+
+  .circle {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: 0.4rem;
+  }
+
+  .exp-box span {
+    font-size: 0.4rem;
+  }
+}
+
+
+/* ========================= Dark Mode Support ========================= */
+.dark-bg {
+  background: #000;
+}
+
+.dark-circle {
+  background: #ff4500;
+  color: #fff !important;
+}
+
+.dark-text {
+  color: #fff !important;
+}
+@media screen and (max-width: 768px) {
+  .experience {
+    gap: 2rem;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+
+  .circle {
+    margin-bottom: 1rem;
+  }
+
+  .exp-box span {
+    font-size: 0.9rem;
+  }
+}
