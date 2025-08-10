@@ -36,6 +36,7 @@ function Intro() {
           </h1>
           <p>
             We provide <span ref={textRef}></span>
+            <p>hgfdsa</p>
           </p>
         </div>
         <div className="intro-icon">
