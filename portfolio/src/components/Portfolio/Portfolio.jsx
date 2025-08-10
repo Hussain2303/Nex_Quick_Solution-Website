@@ -33,7 +33,7 @@ function Portfolio() {
       <div className="portfolioContainer" data-aos="zoom-in-up">
         <Swiper
           modules={[Autoplay]}
-          spaceBetween={20}
+          spaceBetween={70}
           slidesPerView={1}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           breakpoints={{
