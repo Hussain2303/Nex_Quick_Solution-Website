@@ -190,6 +190,9 @@
 
 /* Mobile optimization */
 @media (max-width: 576px) {
+    .testimonial {
+      margin-right: 30px;
+    }
   .client-review {
     padding: 10px;
   }
@@ -208,6 +211,9 @@
   }
 }
 @media (max-width: 400px) {
+    .testimonial {
+      margin : 0 auto;
+    }
 #client_rev{
     font-size: 31px;
     padding-left: 8px;
