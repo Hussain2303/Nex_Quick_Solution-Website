@@ -223,6 +223,9 @@
         margin-top: 3rem;
         margin-bottom: 12rem;
     }
+      #content_ser{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 396px) {
@@ -230,11 +233,26 @@
         margin-top: 3rem;
         margin-bottom: 13rem;
     }
+    #ser{
+        font-size: 50px;
+    }
+    #content_ser{
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 356px) {
     .services {
         margin-top: 3rem;
         margin-bottom: 14rem;
+    }
+      #ser{
+        font-size: 40px;
+    }
+    #content_ser{
+        width: 230px;
+    }
+    div .ser-left{
+        padding: 0px 25px;
     }
 }

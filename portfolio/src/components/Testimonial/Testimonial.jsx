@@ -38,7 +38,7 @@ function Testimonial() {
     return (
         <div className="testimonial">
             <div className="t-heading" data-aos="fade-up">
-                <span>Clients Reviews</span>
+                <span id="client_rev">Clients Reviews</span>
                 <div className="blur1 t-blur1"></div>
                 <div className="blur2 t-blur2"></div>
             </div>
@@ -55,8 +55,8 @@ function Testimonial() {
                 {clients.map((client, index) => (
                     <SwiperSlide key={index} className="swiperSlide">
                         <div className="test-box" data-aos="zoom-in">
-                            <span className="review-text">“{client.review}”</span>
-                            <span className="client-name">~ {client.name}</span>
+                            <span className="review-text" id="t_text">“{client.review}”</span>
+                            <span className="client-name" id="t_name">~ {client.name}</span>
                         </div>
                     </SwiperSlide>
                 ))}

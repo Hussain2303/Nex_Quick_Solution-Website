@@ -20,7 +20,7 @@ body {
 }
 
 .App {
-  padding: 0.5rem 3.5rem;
+  padding: 0.5rem 3rem;
   overflow: hidden;
   background-color: var(--black);
   color: var(--text-color);
@@ -40,3 +40,10 @@ body {
   cursor: pointer;
   color: var(--orange);
 }
+@media(max-width:400px)
+{
+.App {
+  padding:10px 30px 10px 40px;
+
+}
+  }

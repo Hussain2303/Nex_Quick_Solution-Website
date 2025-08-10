@@ -13,8 +13,8 @@ function Services() {
         <div className="services">
             <div className="ser-left">
 
-                <span style={{ color: themeMode === "dark" ? "#00FFFF" : "" }} data-aos="slide-right">Services</span>
-                <span style={{ color: themeMode === "dark" ? "white" : "" }} data-aos="fade-in"> Discover our wide array of expertly crafted solutions designed to enhance
+                <span style={{ color: themeMode === "dark" ? "#00FFFF" : "" }} data-aos="slide-right" id="ser">Services</span>
+                <span style={{ color: themeMode === "dark" ? "white" : "" }} data-aos="fade-in" id="content_ser"> Discover our wide array of expertly crafted solutions designed to enhance
                     <br /> Your digital experience and help your business thrive online</span>
                 <a href={"https://www.fiverr.com/hussain2303/buying?source=avatar_menu_profile"} target='__blank' data-aos="slide-up">
                     <button className="ser-btn btn">Lets Work</button>

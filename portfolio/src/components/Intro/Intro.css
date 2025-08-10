@@ -197,4 +197,12 @@
   .intro-name p span {
     font-size: 1.3rem;
   }
+  .intro-name h1{
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+  }
+  .intro-name span{
+    line-height: 10px;
+  }
 }

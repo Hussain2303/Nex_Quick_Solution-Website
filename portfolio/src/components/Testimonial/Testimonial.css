@@ -134,7 +134,7 @@
 /* Responsive */
 @media screen and (max-width: 550px) {
     .testimonial {
-        padding: 0 1rem;
+        padding: 0 0rem;
         gap: 1rem;
         height: auto;
     }
@@ -152,4 +152,77 @@
     .client-name {
         font-size: 1rem;
     }
+    .test-box{
+    padding: 5px;
+}
+.testimonial{
+    padding: 10px;
+    width: 200px;
+}
+}
+.client-review {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.client-review img {
+  width: 80px; /* smaller and uniform */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.client-review p {
+  font-size: 14px; /* smaller text */
+  line-height: 1.4;
+}
+
+.client-review h4 {
+  font-size: 16px; /* smaller name text */
+  margin-top: 8px;
+}
+
+/* Mobile optimization */
+@media (max-width: 576px) {
+  .client-review {
+    padding: 10px;
+  }
+
+  .client-review img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .client-review p {
+    font-size: 13px;
+  }
+
+  .client-review h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400px) {
+#client_rev{
+    font-size: 31px;
+    padding-left: 8px;
+}
+#t_text{
+    font-size: 14px;
+}
+#t_name{
+font-size: 17px;
+}
+.test-box{
+    padding: 8px;
+}
+.testimonial{
+    padding: 10px 15px;
+    width: 240px;
+}
 }

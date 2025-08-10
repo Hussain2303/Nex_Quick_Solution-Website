@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className="contact-form" id="contact">
             <div className="c-left" data-aos="slide-right">
-                <span style={{
+                <span id="heading" style={{
                     color: themeMode === "dark" ? "white" : "",
                 }}>Get in Touch</span>
                 <span style={{ color: themeMode === "dark" ? "#00FFFF" : "" }}>Contact Us</span>

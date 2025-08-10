@@ -229,4 +229,10 @@ textarea {
         gap: 1rem;
         align-items: center;
     }
+    #contact span{
+        font-size: 1.8rem;
+    }
+    #heading{
+        color: white;
+    }
 }
