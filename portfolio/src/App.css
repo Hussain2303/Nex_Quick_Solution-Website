@@ -40,3 +40,6 @@ body {
   cursor: pointer;
   color: var(--orange);
 }
+.custom-toast-body {
+  font-size: 0.4 rem;
+}
