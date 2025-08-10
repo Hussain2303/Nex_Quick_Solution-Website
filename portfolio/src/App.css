@@ -40,6 +40,7 @@ body {
   cursor: pointer;
   color: var(--orange);
 }
+<<<<<<< HEAD
 @media(max-width:400px)
 {
 .App {
@@ -47,3 +48,8 @@ body {
 
 }
   }
+=======
+.custom-toast-body {
+  font-size: 0.4 rem;
+}
+>>>>>>> ef0545b291cb317741920dd8484921bdcd153102

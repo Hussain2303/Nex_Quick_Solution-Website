@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Services.css"
 import design from "../../img/design.png";
 import coding from "../../img/coding.png";
@@ -8,6 +8,7 @@ import Card from '../Card/Card';
 import useTheme from '../../context/Context';
 
 function Services() {
+
     const { themeMode } = useTheme();
     return (
         <div className="services">

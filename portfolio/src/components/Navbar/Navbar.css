@@ -207,8 +207,13 @@
   .nav-name {
     margin: 0 auto;
     font-size: 1rem;
-    margin-left: 1.3rem;
+    margin-left: 1.05rem;
+
   }
+  .nav-left {
+  display: flex;
+  gap: 1rem;
+}
 
   .navBtn {
     font-size: 11px;

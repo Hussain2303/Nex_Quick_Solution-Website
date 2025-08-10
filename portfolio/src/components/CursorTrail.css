@@ -19,5 +19,10 @@
   mix-blend-mode: difference;
 }
 
-
+@media (max-width: 768px) {
+  .cursor-canvas,
+  .cursor-circle {
+    display: none !important;
+  }
+}
 

@@ -10,8 +10,10 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 0 3rem;
+  padding: 0 1rem;
   margin-top: 5rem;
+  width: 90%;
+
 }
 
 .portfolio-title {
@@ -27,8 +29,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  flex-wrap: wrap;/* increased from 2rem to 3rem for more space */
+  margin-left: 2rem;
 }
 
 .portBox {
@@ -36,12 +38,13 @@
   flex-direction: column;
   align-items: center;
   background-color: #111;
+  gap: 2rem;
   border-radius: 30px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.888);
-  padding: 1.5rem;
+  padding: 1rem;
   transition: transform 0.3s ease;
   max-width: 28rem;
-  width: 100%;
+  width: 90%;
 }
 
 .portBox:hover {
@@ -49,9 +52,8 @@
 }
 
 .imgbox {
-  border-radius: 30px;
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 15/7;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -62,14 +64,15 @@
   border-radius: 30px;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* changed from cover to contain */
+  background-color: #111; /* matches card background */
 }
 
 .portCont {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 0.7 rem;
   gap: 0.8rem;
   text-align: center;
 }
@@ -117,6 +120,7 @@
     padding: 0rem;
     width: 100%;
     max-width: 100%;
+    margin: 0 auto;
   }
 
   .imgbox {
@@ -153,13 +157,23 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
+  .portfolio{
+    width: 100%;
+margin-right: 1 rem;
+  }
   .portfolio-title {
     font-size: 1.8rem;
   }
+ .portBox {
+    padding: 1.2rem;
+    width: 70%;
+    margin-right: 80% !important;
+    
+  }
 
   .imgbox {
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   .portBox img {
@@ -173,5 +187,6 @@
   .portCont button {
     font-size: 0.9rem;
     padding: 6px 18px;
+    margin-bottom: 20%;
   }
 }
