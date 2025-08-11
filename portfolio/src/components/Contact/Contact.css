@@ -1,10 +1,10 @@
 .contact-form {
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 80vh;
-    margin-top: 4rem;
+    height: 100vh;
     /* scroll */
     padding-top: 3rem;
+    margin-top: 3rem !important;
 }
 
 

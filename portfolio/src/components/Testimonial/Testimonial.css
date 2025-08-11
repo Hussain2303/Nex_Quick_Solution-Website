@@ -12,6 +12,7 @@
     color: #f5f5f5;
     animation: fadeInUp 1s ease-out;
     border-radius: 35px;
+    margin-top: 0;
 }
 
 @keyframes fadeInUp {
@@ -133,18 +134,20 @@
 
 /* Responsive */
 @media screen and (max-width: 550px) {
-    .testimonial {
-        padding: 0 0rem;
+   .testimonial {
+        margin: 0 auto; /* centers horizontally */
+        padding: 10px;
+        width: 90%; /* instead of fixed px */
         gap: 1rem;
         height: auto;
     }
 
     .test-box {
-        width: 90%;
+        width: 100%;
+        padding: 8px;
         height: auto;
-        padding: 1.5rem;
     }
-
+}
     .test-box .review-text {
         font-size: 1rem;
     }
@@ -211,11 +214,13 @@
   }
 }
 @media (max-width: 400px) {
-    .testimonial {
-      margin : 0 auto;
+      .testimonial {
+        margin: 0 auto; /* ensures centering */
+        padding: 10px 15px;
+        width: 90% !important; /* use percentage instead of fixed px */
     }
 #client_rev{
-    font-size: 31px;
+    font-size: 23px;
     padding-left: 8px;
 }
 #t_text{

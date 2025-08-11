@@ -37,12 +37,13 @@ function Testimonial() {
 
     return (
         <div className="testimonial">
+            <div id="right">
             <div className="t-heading" data-aos="fade-up">
                 <span id="client_rev">Clients Reviews</span>
                 <div className="blur1 t-blur1"></div>
                 <div className="blur2 t-blur2"></div>
             </div>
-
+   </div>
             <Swiper
                 slidesPerView={1}
                 grabCursor={true}
@@ -61,6 +62,7 @@ function Testimonial() {
                     </SwiperSlide>
                 ))}
             </Swiper>
+         
         </div>
     );
 }

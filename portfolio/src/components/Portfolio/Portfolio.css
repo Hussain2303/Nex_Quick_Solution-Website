@@ -158,28 +158,31 @@
 }
 
 @media screen and (max-width: 400px) {
-  .portfolio{
-    width: 100%;
-margin-right: 1.3 rem;
+  .portfolio {
+    width: 90% !important;
+    height: 100% !important;
+    margin: 0 auto; /* centers the portfolio container */
   }
+
   .portfolio-title {
     font-size: 1.8rem;
   }
- .portBox {
-    padding: 1.2rem;
-    width: 80%;
-    margin-right: 100% !important;
+
+  .portBox {
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+    width: 90%;
+    margin-right: 50px !important; /* centers each box */
   }
 
   .imgbox {
     border-radius: 10px;
     width: 100%;
-    
   }
 
   .portBox img {
     border-radius: 15px;
-    width: 100%;
+    width: 90%;
     object-fit: cover;
   }
 
@@ -190,6 +193,5 @@ margin-right: 1.3 rem;
   .portCont button {
     font-size: 0.9rem;
     padding: 6px 18px;
-
   }
 }

@@ -184,6 +184,7 @@
 @media screen and (max-width: 480px) {
   .slider-container {
     height: auto;
+    width: 100%;
   }
 
   .intro-name h1 {
