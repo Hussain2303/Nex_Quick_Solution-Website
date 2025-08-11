@@ -161,7 +161,7 @@
   .portfolio {
     width: 90% !important;
     height: 100% !important;
-    margin: 0 auto; /* centers the portfolio container */
+    margin-bottom: -50% !important;
   }
 
   .portfolio-title {
@@ -169,15 +169,15 @@
   }
 
   .portBox {
-    padding-top: 0.7rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
     width: 90%;
     margin-right: 50px !important; /* centers each box */
   }
 
   .imgbox {
     border-radius: 10px;
-    width: 100%;
+    width: 95%;
   }
 
   .portBox img {
@@ -188,6 +188,7 @@
 
   .portCont > span {
     font-size: 1.1rem;
+    padding: -9px !important;
   }
 
   .portCont button {

@@ -241,10 +241,10 @@
     }
 }
 
-@media screen and (max-width: 356px) {
+@media screen and (max-width: 400px) {
     .services {
-        margin-top: 3rem;
-        margin-bottom: 14rem;
+        margin-top:0% !important;
+        margin-bottom: 11rem;
     }
       #ser{
         font-size: 40px;

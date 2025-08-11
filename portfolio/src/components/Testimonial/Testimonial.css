@@ -12,7 +12,8 @@
     color: #f5f5f5;
     animation: fadeInUp 1s ease-out;
     border-radius: 35px;
-    margin-top: 0;
+   margin-left: 150px;
+    width: 70%!important;
 }
 
 @keyframes fadeInUp {
@@ -215,9 +216,9 @@
 }
 @media (max-width: 400px) {
       .testimonial {
-        margin: 0 auto; /* ensures centering */
         padding: 10px 15px;
         width: 90% !important; /* use percentage instead of fixed px */
+        margin-bottom: 150px !important;
     }
 #client_rev{
     font-size: 23px;
