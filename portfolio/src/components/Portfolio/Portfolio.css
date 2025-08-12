@@ -161,7 +161,8 @@
   .portfolio {
     width: 90% !important;
     height: 100% !important;
-    margin-bottom: -90% !important;
+    margin-bottom: -110% !important;
+    margin-top: -70% !important;
   }
 
   .portfolio-title {
