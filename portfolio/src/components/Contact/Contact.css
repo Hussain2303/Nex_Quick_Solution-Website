@@ -236,3 +236,8 @@ textarea {
         color: white;
     }
 }
+@media screen and (max-width: 768px) {
+  .Toastify__toast-container {
+    display: none !important;
+  }
+}

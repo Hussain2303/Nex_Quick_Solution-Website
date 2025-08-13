@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
-import Upwork from '../../img/Upwork.png';
+import Watsapp from '../../img/Watsapp.jpg';
 import White from '../../img/White.png';
 
 function Navbar() {
@@ -109,11 +109,11 @@ function Navbar() {
 
             {/* Upwork icon */}
             <a
-                href="https://www.upwork.com/freelancers/~01341fed9cb414c4ac?mp_source=share"
+                href="https://wa.me/+923024843779"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src={Upwork} alt="Upwork" className="Upwork" />
+                <img src={Watsapp} alt="Upwork" className="Upwork" />
             </a>
         </div>
     );

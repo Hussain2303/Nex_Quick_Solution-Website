@@ -20,7 +20,7 @@ function Intro() {
       typeSpeed: 50,
       backSpeed: 25,
       backDelay: 900,
-      strings: ['Web Development', 'App Solutions', 'UI/UX Designs', 'Custom Software']
+      strings: ['Website Designing', 'Graphic Designing', 'UI/UX Designs', 'Digital Marketing','Video Editing','Meta Ads','SEO Services']
     });
   }, []);
 
