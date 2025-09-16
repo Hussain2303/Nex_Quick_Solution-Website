@@ -109,7 +109,7 @@ function Navbar() {
 
             {/* Upwork icon */}
             <a
-                href="https://wa.me/+923024843779"
+                // href="https://wa.me/+923024843779"
                 target="_blank"
                 rel="noopener noreferrer"
             >

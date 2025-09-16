@@ -43,7 +43,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2024 DoctorConsult. All Rights Reserved. | Designed by <span>Muhammad Hussain</span></p>
+        <p>&copy; 2024 DoctorConsult. All Rights Reserved. | Designed by <span>Muhammad Ommer</span></p>
       </div>
     </footer>
   );
